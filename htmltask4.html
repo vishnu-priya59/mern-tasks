@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TASK-4</title>
+    <style>
+        input[type=password] {
+            font-size: 30px;
+            height: 20px;
+            width: 150px;
+        }
+        td{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        select {
+            background-color: darkgray r;
+        }
+
+        input {
+            border-radius: 0px;
+            border: 1px solid rgba(173, 171, 171, 0.945);
+            width: 180px;
+        }
+
+        button {
+            width: 50px;
+            border-radius: 2px;
+            border: 1px solid black;
+            cursor: pointer;
+            background-color: rgba(237, 197, 77, 0.861);
+            height: 25px;
+            padding-left: 1px;
+            padding-right: 1px;
+        }
+        span{
+            background-color: rgb(226, 223, 223);
+            padding: 2px 7px 2px 7px;
+        }
+        select{
+            border-radius: 0px;
+            border: 1px solid rgba(213, 211, 211, 0.945);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form action="">
+            <table width="500">
+                <tr>
+                    <td><label for="fn">Full Name:</label></td>
+                    <td><input type="text" name="fn" id="fn" value="Vishnu Priya"></td>
+                </tr>
+                <tr>
+                    <td><label for="un">Username:</label></td>
+                    <td><input type="text" name="un" id="un" value="vishnu"></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password:</label></td>
+                    <td><input type="password" name="pwd" id="pwd" value="1234567"></td>
+                </tr>
+                <tr>
+                    <td><label for="rpw">Re Password:</label></td>
+                    <td><input type="password" name="rpw" id="rpw" value="1234567"></td>
+                </tr>
+                <tr>
+                    <td><label for="kdp">Address:</label></td>
+                    <td><input type="text" name="kdp" id="kdp" value="Kadapa, AP"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" name="age" id="age" value="19"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender:</label></td>
+                    <td>
+                        <select id="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button><span>Save</span></button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

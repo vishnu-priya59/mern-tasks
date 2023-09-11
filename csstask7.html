@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 7</title>
+    <style>
+        body{
+            margin: 50px 250px;
+        }
+        form {
+            background-color: rgb(160, 50, 88);
+            padding: 30px 100px;
+        }
+
+        table {
+            background-color: rgba(89, 19, 43, 0.815);
+            padding: 20px 80px;
+        }
+        button {
+            background-color: white;
+            color: black;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        td{
+            color: white;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        select{
+            background-color: gainsboro;
+            padding: 5px;
+        }
+        .ip{
+            height: 20px;
+            width: 195px;
+        }
+        input[type=password] {
+            font-size: 30px;
+            height: 20px;
+            width: 195px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input class="ip" type="text" placeholder="your name"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input class="ip" type="email" placeholder="your email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input class="ip" type="password"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input class="ip" type="tel"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        Male:<input type="radio" name="Gender">
+                        Female:<input type="radio" name="Gender">
+                        Other:<input type="radio" name="Gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>
+                        <select name="lang" id="lang">
+                            <option value="Select Language">Select Language</option>
+                            <option value="Telugu">Telugu</option>
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Zip Code:</td>
+                    <td><input class="ip" type="tel"></td>
+                </tr>
+                <tr>
+                    <td>About:</td>
+                    <td>
+                        <textarea name="About" id="abt" placeholder="Write about yourself..." cols="25" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit"><b>Register</b></button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

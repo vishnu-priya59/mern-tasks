@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 6</title>
+    <style>
+        table {
+            border: 1px solid gainsboro;
+            padding: 10px;
+            border-collapse: collapse;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        td {
+            padding: 10px;
+        }
+        #img2 {
+            height: 200px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #Cancel {
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            width: 80px;
+        }
+        a {
+            color: black;
+        }
+        #link{
+            text-align: right;
+        }
+        .input {
+            padding: 8px;
+            width: 400px;
+            border: 1px solid gainsboro;
+        }
+        #Login {
+            background-color: rgba(38, 153, 38, 0.826);
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 415px;
+        }
+        .label {
+            padding-bottom: 0px;
+        }
+        .i {
+            padding-top: 0px;
+        }
+        #lastrow{
+            background-color: rgba(220, 220, 220, 0.658);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table>
+            <!-- <tr>
+                <td><img src="" alt=""></td>
+            </tr> -->
+            <tr>
+                <td colspan="2"><center><img id="img2" src="./Profile.jpg" alt="Profile"></center></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="un"><b>Username</b></label></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="i"><input class="input" type="text" name="un" placeholder="Enter Username"></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="un"><b>Password</b></label></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="i"><input class="input" type="password" name="pwd" placeholder="Enter Password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="Login" type="submit"><b>Login</b></button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" checked>Remember me</td>
+            </tr>
+            <tr id="lastrow">
+                <td><button id="Cancel"><b>Cancel</b></button></td>
+                <td id="link"><a href="">Forgot Password?</a></td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

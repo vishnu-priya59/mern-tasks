@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK 2</title>
+    <style>
+        div{
+            display: inline-block;
+        }
+        #div1 {
+            border: 1.5px solid black;
+            padding: 5px 5px 0px 5px;
+            display: inline-block;
+        }
+
+        #m1 {
+            background-color: rgba(135, 207, 235, 0.71);
+            width: 250px;
+        }
+
+        .m {
+            color: blue;
+            width: 200px;
+            height: 40px;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .m:hover {
+            background-color: orange;
+            color: white;
+            width: 200px;
+            height: 40px;
+        }
+
+        #m3 {
+            background-color: gainsboro;
+        }
+
+        .m2 {
+            border-right: 1px solid blue;
+            color: blue;
+            height: 30px;
+            width: 60px;
+            font-size: 20px;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .m2:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        #div2 {
+            border: 1.5px solid black;
+            padding: 5px 0px 5px 5px;
+            display: inline-block;
+        }
+
+        #collast {
+            border-right: 0px;
+        }
+
+        h3 {
+            display: inline;
+            padding: 20px;
+        }
+        #hnavcontain{
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Vertical Navigation Bar</h3><br><br>
+        <div id="div1">
+            <table id="m1">
+                <tr>
+                    <td class="m">Home</td>
+                </tr>
+                <tr>
+                    <td class="m">Java</td>
+                </tr>
+                <tr>
+                    <td class="m">CSS</td>
+                </tr>
+                <tr>
+                    <td class="m">HTML</td>
+                </tr>
+                <tr>
+                    <td class="m">Bootstrap</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="hnavcontain">
+        <h3>Horizontal Navigation Bar</h3><br><br>
+        <div id="div2">
+            <table id="m3">
+                <tr>
+                    <td class="m2">Home</td>
+                    <td class="m2">Java</td>
+                    <td class="m2">HTML</td>
+                    <td class="m2">CSS</td>
+                    <td class="m2" id="collast"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
